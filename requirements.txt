@@ -34,7 +34,7 @@ seaborn>=0.11.0
 # nvidia-pyindex  # TensorRT export
 # nvidia-tensorrt  # TensorRT export
 # scikit-learn<=1.1.2  # CoreML quantization
-# tensorflow>=2.4.1  # TF exports (-cpu, -aarch64, -macos)
+# tensorflow  # TF exports (-cpu, -aarch64, -macos)
 # tensorflowjs>=3.9.0  # TF.js export
 # openvino-dev  # OpenVINO export
 
@@ -121,8 +121,8 @@ networkx==3.0
 nltk==3.7
 numpy==1.24.2
 oauthlib==3.2.2
-onnx==1.13.0
-onnxruntime==1.13.1
+onnx
+onnxruntime
 opencv-python==4.7.0.68
 opencv-python-headless==4.7.0.68
 openpyxl==3.0.10
